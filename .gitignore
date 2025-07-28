@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Cypress cache and screenshots/videos
+cypress/videos/
+cypress/screenshots/
+
+# Environment files
+.env
+.env.local
+
+# OS/system files
+.DS_Store
+Thumbs.db
