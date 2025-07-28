@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Run Cypress Tests') {
       steps {
-        sh 'npm install'
-        sh 'npx cypress run --headless --browser chrome'
+        bat 'npm install'
+        bat 'npx cypress run --headless --browser chrome'
       }
     }
   }
